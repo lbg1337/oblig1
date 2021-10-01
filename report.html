@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8"> 
+        <title>About us</title>
+            <link rel="stylesheet" href="styling.css">
+    </head>
+    
+    <body>
+        <header id="header1">
+            <nav>
+                <ul class="navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ul>
+        </nav>
+        </header>
+        <main>
+            <article>
+                <div class="cardreport">
+                    <h2 id="reportheader">Website creation report</h2>
+                    <p>
+                        <p>In determening what kind of design we wanted for our website we looked to the
+                        sites that have been made in the labs, as well as elvebredden café. We did not
+                        make use of drawing up a sitemap and/or sketching the different pages with pen 
+                        and paper, but that is probably something we want to do for our future websites because
+                        it gives you something tangible to work with.</p>
+
+                        <p>When we first looked at what accessibility means for a website, we thought
+                        about what different obstacles people can have when it comes to reading on 
+                        a website. We looked at Elvebredden Cafe's website and initially thought that it
+                        looked relatively pleasant, however, when we tried navigating the site using
+                        only the keyboard we found that navigation was severly limited. It was only
+                        possible to scroll up and down with the arrow keys, pressing tab did not
+                        cycle between the menu buttons. For people with impaired vision, using a 
+                        computer mouse is often not possible which means they are reliant on websites
+                        supporting use of the keyboard. We made sure to make this possible on our website
+                        as we do not want to lose a potential 130,000 customers (which is the amount of
+                        legally blind people in Norway).</p>
+
+                        <p>Another form of visual impairment is color
+                        blindness, the most common form of which entails a difficulty in distinguishing
+                        between red and green. Therefore, we wanted to avoid these color combinations on 
+                        our website so that it is accessible also for color blind people.</p>
+
+                        <p>When it comes to fonts, we chose to use Arial for all the text on our website. 
+                        This is because arial is a sans-serif font which means that it does not have serifs. 
+                        Serifs are decorative line strokes attached to the end of the "main" lines 
+                        of a letter. No serifs means less clutter in words which may be beneficial for 
+                        dyslexics using our page.</p>
+
+                        <p>After creating a website design we were pleased with, 
+                        we sent the pages constituting the complete website through the web accessibility checker
+                        "Achecker". This tool read the html code of your website and finds elements that
+                        may have an impact on the site's accessibility. Lucky for us, we did not have a whole
+                        lot of things that had to be changed, but there were a few. Firstly we had completely forgotten 
+                        to set the website lang attribute. This ties in to accessibility because without
+                        setting the language, screen readers (assistive software used by visually impaired people)
+                        may not have the right pronounciation. The other accessibility problem Achecker
+                        notified us of, was that we had an id that was not unique; our header had the id "header".</p>
+
+                        
+
+                        
+
+
+                    </p>
+                </div>
+            </article>
+        </main>
+        <footer class="kontaktinfo">
+            <p>Pilestredet 35 &emsp; Mon-Sun 00-23 &emsp; 12 34 56 78</p>
+        </footer>
+    </body>
+    
+</html>

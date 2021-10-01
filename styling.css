@@ -1,34 +1,38 @@
 body {
-    margin: 0;
-    background-image: url(bilder/cafe.jpg);
-  }
+  margin: 0;
+  background-image: url(bilder/cafe.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   
   main {
     margin: 5%;
   }
-#header {
-    background-color: rgba(223, 225, 235, 0.7);
+#header1 {
+    background-color: rgba(255, 255, 255, 0.77);
     color:rgba(0, 0, 0, 1);
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
     font-family: arial;
+    position: sticky;
+    top: 0;
     
-
     
- 
+    
 }
 
-#header ul {
+#header1 ul {
     display: inline-block;
+    
   
 }
 
-#header ul > li {
-    display: inline-block;
-    margin-right: 01.5em;
-   
-    
-}
+#header1 ul > li {
+  display: inline-block;
+  margin-right: 01.5em;
+ }
 
 header a {
     color: inherit;
@@ -36,27 +40,77 @@ header a {
 
 main > *,
 article > * {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
-.menyheader {
-    
-    color: rgb(0, 182, 9)  ;
-    font-family: arial;
-    text-align: center;
-    font-size: 100px ;
-}
+
 
 .card {
   font-family: arial;
-  background: rgba(255, 255, 255, 0.87);
+  background: rgba(255, 255, 255, 0.77);
   box-sizing: content-box;
   padding: 10px;
   width: 30%; 
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 50px;
   margin-left: 35%; 
-  margin-right: 35%; /* Redundant to have both left and right margins
-   set when either one of them makes the other one equal */
   text-align: center;
 }
+
+#menutype {
+  text-decoration: underline;
+  font-size: 42px;
+}
+
+#fooditem {
+  font-size: 30px;
+}
+
+#description {
+  font-size: 22px;
+}
+
+#allergens {
+  font-size: 19px;
+}
+.kontaktinfo {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  font-family: Arial;
+  font-size: 1.5em  ;
+}
+.welcome {
+  font-family: arial;
+  background: rgba(255, 255, 255, 0.7);
+  box-sizing: content-box;
+  padding: 10px;
+  margin-top: auto;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  font-size: 3em;
+}
+
+.cardreport {
+  font-family: arial;
+  background: rgba(255, 255, 255, 0.88);
+  box-sizing: content-box;
+  padding: 10px;
+  margin-top: auto;
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+#reportheader {
+  font-size: 3em;
+  text-align: center;
+}
+
